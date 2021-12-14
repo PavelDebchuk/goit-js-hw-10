@@ -18,3 +18,12 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+.text-bold {
+  color: #000000;
+  font-weight: bold;
+}
+
+li {
+  list-style-type: none;
+}

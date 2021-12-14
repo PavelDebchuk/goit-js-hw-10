@@ -1,4 +1,10 @@
-<li>Країна:{{name.official}}</li>
-<li>Столиця:{{capital:}}</li>
-<li>Населення:{{population}}</li>
-<li>Мови:{{lang}}</li>
+<li>
+    <img src="{{0.flag}}" width="40" alt="{{0.demonym}}">
+    <h1>{{0.name}}</li></h1>
+<li><span class="text-bold">Capital:</span>{{0.capital}}</li>
+<li><span class="text-bold">Population:</span>{{0.population}}</li>
+{{#each 0.languages}}
+    <li><span class="text-bold">languages:</span>{{name}}</li>
+{{/each}}
+
+
