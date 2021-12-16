@@ -27,3 +27,16 @@ body {
 li {
   list-style-type: none;
 }
+
+.row-list {
+  display: flex;
+  align-items: baseline;
+}
+.row {
+  display: inline-flex;
+  align-items: baseline;
+}
+
+h1 {
+  margin-left: 10px;
+}

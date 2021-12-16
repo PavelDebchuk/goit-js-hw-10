@@ -1,10 +1,11 @@
-<li>
-    <img src="{{0.flag}}" width="40" alt="{{0.demonym}}">
-    <h1>{{0.name}}</li></h1>
-<li><span class="text-bold">Capital:</span>{{0.capital}}</li>
-<li><span class="text-bold">Population:</span>{{0.population}}</li>
-{{#each 0.languages}}
-    <li><span class="text-bold">languages:</span>{{name}}</li>
-{{/each}}
-
-
+<ul class="list-item">
+    <li class="row">
+        <img src="{{0.flag}}" width="40" height="20" alt="{{0.demonym}}">
+        <h1>{{0.name}}</h1>
+    </li>
+    <li><span class="text-bold">Capital:</span>{{0.capital}}</li>
+    <li><span class="text-bold">Population:</span>{{0.population}}</li>
+    {{#each 0.languages}}
+        <li><span class="text-bold">languages:</span>{{name}}</li>
+    {{/each}}
+</ul>
