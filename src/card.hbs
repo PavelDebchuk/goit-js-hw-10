@@ -5,7 +5,11 @@
     </li>
     <li><span class="text-bold">Capital:</span>{{0.capital}}</li>
     <li><span class="text-bold">Population:</span>{{0.population}}</li>
-    {{#each 0.languages}}
-        <li><span class="text-bold">languages:</span>{{name}}</li>
-    {{/each}}
+    
+        <li>
+            <span class="text-bold">
+                languages:
+                </span>{{#each 0.languages}}{{name}}
+            {{/each}}
+        </li>
 </ul>
